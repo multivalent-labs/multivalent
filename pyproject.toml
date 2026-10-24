@@ -23,3 +23,6 @@ classifiers = [
 [project.urls]
 Homepage = "https://multivalent.ai"
 Documentation = "https://multivalent.dev"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/multivalent"]
